@@ -1,0 +1,166 @@
+.contenedor{
+    width: 70%;
+    min-height: 400px;
+    margin: 50px auto;
+    display: flex;
+    border: 2px solid rgb(19, 19, 19);
+}
+
+.contenedor .izquierda {
+    background:rgb(252, 253, 252);
+    width: 50%;
+    text-align: center;
+    
+}
+.contenedor .derecha{
+    background:rgb(0, 13, 131);
+    width: 50%;
+        text-align: center;
+}
+
+.izquierda H2{
+    color: rgb(1, 14, 14);
+}
+
+.derecha H2{
+    color: rgb(246, 248, 248);
+}
+
+.derecha #figura{
+    width: 180px;
+    height: 180px;
+    margin: 30px auto;
+    background: black;
+    transition: 1s;
+}
+
+.izquierda button{
+    border: 2PX solid;
+    background: blanchedalmond;
+    color: rgb(7, 7, 7);
+    padding: 8PX  24PX;
+    font-size: 20px;
+    margin: 10px;
+    transition: .1s;
+    cursor: pointer;
+}
+
+.izquierda button:hover{
+    border-radius: 10px 0 10px 0;
+    background: rgb(25, 0, 85);
+    color: rgb(110, 248, 248);
+}
+
+#figura.circulo{
+    border-radius: 50%;
+    transform: rotate(-360deg);
+    transition: 1s;
+    background: rgb(49, 0, 95);
+}
+
+#figura.top{
+transform: translateY(-100px);
+transition: 1s;
+}
+
+
+
+#figura.rombo{
+    width: 100px; 
+    height: 100px; 
+
+    background: #c8ca42;
+    -webkit-transform: rotate(45deg) skew(15deg, 15deg);
+    -moz-transform: rotate(45deg) skew(15deg, 15deg);
+    -ms-transform: rotate(45deg) skew(15deg, 15deg);
+    -o-transform: rotate(45deg) skew(15deg, 15deg);
+    transform: rotate(45deg) skew(15deg, 15deg);
+}
+
+#figura.botton{
+    border: 2PX solid;
+    background: blanchedalmond;
+    color: rgb(7, 7, 7);
+    padding: 8PX  24PX;
+    font-size: 20px;
+    margin: 10px;
+    transition: .1s;
+    cursor: pointer;
+    
+}
+#figura.botton:hover{
+    border-radius: 10px 0 10px 0;
+    background: rgb(151, 107, 255);
+    color: rgb(243, 170, 12);
+    
+    
+}
+
+#figura.left{
+    transform: translatex(-100px);
+    transition: 1s;
+
+}
+
+#figura.rigth{
+    transform: translateX(100px);
+    transition: 1s;
+}
+
+#figura.diagonal_sup{
+    transform: translate(100px, -100px);
+    transition: 1s;
+
+}
+
+#figura.diagonal_infe{
+    transform: translate(-100px, 100px);
+    transition: 1s;
+    
+
+}
+
+#figura.triangulo{
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid rgb(3, 207, 88);
+    border-left: 50px solid transparent;
+}
+
+#figura.Gif{
+background-image: url('../img/mundo.gif')
+        
+    }
+
+
+#figura.rectangulo{
+    width: 250px;
+    height: 0px;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 100px solid #428bca;
+}
+
+#figura.colores{
+    width:0;
+    height:0;
+    border-right: 50px solid #ffe600;
+    border-top: 50px solid #001aaa;
+    border-left: 50px solid #800000;
+    border-bottom: 50px solid #00861d;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border-radius: 100%
+}
+    
+
+    
+
+
+
+  
+
+
+
+
